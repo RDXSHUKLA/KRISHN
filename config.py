@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/RDXSHUKLA/MUSKAN",
+    "https://github.com/RDXSHUKLA/CHINGARI",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SHIVANSH474")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/friend_club_102")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/veda_ki_vani")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+oKV6PitSA7FhZTM9")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -77,16 +77,16 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/lb7333.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/0b637v.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/lb7333.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/0b637v.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-STATS_IMG_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/0b637v.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/0b637v.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/0b637v.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/0b637v.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/0b637v.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
