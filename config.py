@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/veda_ki_vani")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+oKV6PitSA7FhZTM9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+Fr6cgr63tgY1YTJl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+qSYnn0FPZqxiMGE1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -77,16 +77,16 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/0b637v.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/7nw5md.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/0b637v.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/7nw5md.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/0b637v.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/0b637v.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/0b637v.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/0b637v.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/0b637v.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/7nw5md.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/7nw5md.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/7nw5md.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/7nw5md.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/7nw5md.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
